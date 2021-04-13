@@ -20,15 +20,17 @@ namespace ConsoleApp4
             //counting.isArrayPerm(new int[] { 1 });
             //counting.MaxCounters(5, new int[] { 3, 4, 4, 6, 1, 4, 4 });
             // counting.smallestPositiveInt(new int[] { 1, 2, 3});
-            //sample.GetSineWave("HelloWorldHowAreYou");
+            sample.GetSineWave("HelloWorldHowAreYou");
             //sample.ReverseWords();
             //AgreeyaCodility.solution(2014, "April", "May", "Wednesday");
 
 
-            BinTree t2 = new BinTree();
-            int[] arr = { 1, 2, 3, 4, 5, 6, 6, 6, 6 };
-            t2.root = t2.insertLevelOrder(arr, t2.root, 0);
-            t2.inOrder(t2.root);
+            //BinTree t2 = new BinTree();
+            //int[] arr = { 1, 2, 3, 4, 5, 6, 6, 6, 6 };
+            //t2.root = t2.insertLevelOrder(arr, t2.root, 0);
+            //t2.inOrder(t2.root);
+
+            Console.ReadLine();
 
         }
     }

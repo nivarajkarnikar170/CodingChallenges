@@ -10,8 +10,7 @@ namespace TestProject1
         public void TestMethod1()
         {
 
-            var obj = new MySum();
-            Assert.AreEqual(5, obj.sumNums(2, 3));
+           
         }
     }
 }

@@ -60,7 +60,7 @@ namespace ConsoleApp4
             if (root != null)
             {
                 if (root.left != null) {
-                    sumleft = sumleft + findSumLeft(root.left, );
+                    //sumleft = sumleft + findSumLeft(root.left, );
                 }
                 inOrder(root.left);
                 Console.Write(root.data + " ");
