@@ -9,8 +9,8 @@ namespace TestProject1
         [TestMethod]
         public void TestMethod1()
         {
-
-           
+            Counting c = new Counting();
+            Assert.AreEqual(4, c.smallestPositiveInt(new int[] { 1, 2, 3 }));
         }
     }
 }
